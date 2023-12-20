@@ -10,7 +10,7 @@ class Song extends Media{
 
     constructor(songData){
         super(songData);
-        this.artist = songData,this.artist;
+        this.artist = songData.artist;
     }
 
 }
@@ -19,7 +19,7 @@ const mySong = new Song({
 
     artist: "Queen",
     name: "Bohemian Rhasody",
-    publishDate: 1975,
+    publisDate: 1975,
 
 });
 
