@@ -5,16 +5,16 @@ const person = {
 
 }
 
-function sayHello(){
+function sayHello() {
     console.log("Hello world!")
 }
 
-function cube(x){
-    return x*x*x;
+function cube(x) {
+    return x * x * x;
 }
 
-const add = (a,b) => a+b;
+const add = (a,b) => a + b;
 
-const static = true;
+const status = true;
 
-module.exports = {person, sayHello , cube , add , static}
+module.exports = {person, sayHello , cube , add , status}
