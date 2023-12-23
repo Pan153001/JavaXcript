@@ -5,7 +5,7 @@ const rl = require('readline').createInterface({
 
 rl.question('Enter your name: ', (name) => {
     rl.question('Enter your wight (in kg): ', (weight) => {
-        rl.question('Enter your wight (in kg): ', (weight) => {
+        rl.question('Enter your wight (in m): ', (height) => {
             
             let bmi = weight / (height * height);
 
