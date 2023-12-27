@@ -3,7 +3,7 @@ function promiseTimeout(ms) {
         setTimeout(resolve, ms);
     });
 }
-
+console.log("begin");
 async function run() {
     console.log("Start!!");
 
@@ -12,3 +12,6 @@ async function run() {
 }
 
 run();
+
+
+console.log("end");

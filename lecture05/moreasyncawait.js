@@ -1,5 +1,3 @@
-const { resolve } = require("path");
-
 function who() {
     return new Promise((resolve) => {
         setTimeout(() => {
@@ -17,7 +15,7 @@ function what() {
 }
 
 function where() {
-    return Promise((resolve) => {
+    return new Promise((resolve) => {
         setTimeout(() => {
             resolve("in the shadows");
         }, 500);
@@ -30,7 +28,10 @@ async function msg() {
     const b = await what();
     const c = await where();
 
-    console.log('We are looking for : ')
-    msg();
-    console.log('hello');
+    console.log("${a} ${b} ${c}");
+
 }
+
+console.log('We are looking for : ');
+msg();
+console.log('hello');
