@@ -8,7 +8,7 @@ console.log(arr1);
 
 console.log("\n******Shift And Unshift******\n")
 console.log(arr1.unshift("new value"));
-consolel.log(arr1);
+console.log(arr1);
 console.log(arr1.shift());
 console.log(arr1);
 
