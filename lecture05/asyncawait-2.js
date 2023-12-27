@@ -5,7 +5,7 @@ function promiseTimeout(ms) {
         setTimeout(resolve, ms);
     });
 }
-
+console.log("begin");
 async function longRunningOperation() {
     return 42;
 }
