@@ -9,7 +9,7 @@ rl.question('Enter your name: ', (name) => {
             
             let bmi = weight / (height * height);
 
-            console.log('${name}, your BMI is ${bmi.toFixed(2)}');
+            console.log(`${name}, your BMI is ${bmi.toFixed(2)}`);
             
             rl.close();
          });
