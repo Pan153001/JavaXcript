@@ -1,7 +1,14 @@
-function simplePair(){
-    
+function simplePair(num,result){
+    for(let n = 0; n < num.length; n++){
+        for(let m = n + 1; m < num.length; m++){
+            if(num[n] * num[m] === result){
+                return num[n] * num[m];
+            }
+        }
+    }
+    return null;
 }
 
-simplePair([1 ,2 ,3], 3)
-simplePair([1 ,2 ,3], 6)
-simplePair([1 ,2 ,3], 9)
+console.log(simplePair([1 ,2 ,3], 3)); //-> 3
+console.log(simplePair([1 ,2 ,3], 6)); //-> 6
+console.log(simplePair([1 ,2 ,3], 9)); //-> 9
