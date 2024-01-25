@@ -8,7 +8,7 @@
 </head>
 <body>
     <?php
-        echo "Introduct Myself";
+        echo "<center>Introduct Myself";
     ?>
 </body>
 </html>
