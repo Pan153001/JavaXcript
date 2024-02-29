@@ -1,0 +1,18 @@
+h1 {
+    text-align: center;
+    color: black; 
+    background-color: yellow;
+    font-size: 50px;
+}
+p#font {
+    font-family: Courier;
+    text-align: center;
+}
+.font {
+    font-family: Courier;
+    text-align: center;
+}
+table ,td{
+    border: 0px solid black;
+    
+}
